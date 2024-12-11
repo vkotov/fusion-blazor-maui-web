@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBlazorExample", "FusionBlazorExample\FusionBlazorExample.csproj", "{4965E848-0374-4157-B948-E467DDA55FE0}"
 EndProject
@@ -9,6 +9,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBlazorExample.Web", "FusionBlazorExample.Web\FusionBlazorExample.Web.csproj", "{0ED240CA-CFC8-4EC2-B068-A660EB028D26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBlazorExample.Web.Client", "FusionBlazorExample.Web.Client\FusionBlazorExample.Web.Client.csproj", "{4A245404-A93D-485D-BC8E-EDD16681E3E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BC38677-1B28-45E4-ADAE-82254752A2C2}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

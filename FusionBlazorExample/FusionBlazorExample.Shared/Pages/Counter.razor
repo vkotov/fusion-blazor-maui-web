@@ -1,18 +1,25 @@
 ﻿@page "/counter"
+@inherits ComputedStateComponent<int>
+@inject ICounterService CounterService
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
+<p role="status">Current count: @State.ValueOrDefault</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
 
     private void IncrementCount()
     {
-        currentCount++;
+        CounterService.IncrementCount();
     }
+
+    protected override Task<int> ComputeState(CancellationToken cancellationToken)
+    {
+        return CounterService.GetCount(cancellationToken);
+    }
+
 }

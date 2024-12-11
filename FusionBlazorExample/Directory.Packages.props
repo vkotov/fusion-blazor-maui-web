@@ -1,0 +1,26 @@
+<Project>
+  <!-- https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="ActualLab.Fusion" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Fusion.Blazor" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Fusion.Blazor.Authentication" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Fusion.EntityFramework" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Fusion.Server" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Generators" Version="9.7.6" />
+    <PackageVersion Include="ActualLab.Fusion.Ext.Contracts" Version="9.7.6" />
+    <PackageVersion Include="MemoryPack.Generator" Version="1.21.3" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.0" />
+    <PackageVersion Include="System.Private.Uri" Version="4.3.2" />
+  </ItemGroup>
+</Project>
